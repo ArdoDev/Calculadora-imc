@@ -19,7 +19,6 @@ body{
 }
 
 .container{
-    min-width: 60vh;
     max-width: 80vh;
     margin: 60px auto;
     background-color: rgb(180, 246, 255);
@@ -52,7 +51,7 @@ p{
 
 form p{
   
-        word-spacing: 80px;
+        word-spacing: 58px;
         margin-bottom: 1vh;
   
 }
@@ -97,4 +96,45 @@ footer, p.copy {
     text-align: center;
     align-content: center;
     color: rgb(27, 147, 177);
+}
+
+@media (max-width:768px) {
+    h1{
+        color: rgb(0, 28, 51);
+        font-size: 3vh ;
+    }
+    
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 1.8vh;
+    }
+
+    input, button{
+        margin-right: 2vh;
+        width: 10vh;
+        height: 4vh;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(18, 92, 110);
+        border: 0 none;
+        outline: 0;
+        font-family: Quicksand;
+        font-size: 1.5vh !important;
+    }
+
+    .imc{
+        padding-right: 5vh;
+       
+    } 
+    .container{
+        width: 40vh;
+        margin: 30px auto;
+        background-color: rgb(180, 246, 255);
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: rgba(0, 48, 102, 0.527) 5px 5px 25px;
+        line-height: 1.5em;
+        margin-top: 15vh;
+    }
+    
 }
