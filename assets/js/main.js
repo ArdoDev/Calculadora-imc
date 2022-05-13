@@ -37,7 +37,7 @@ form.addEventListener("submit", function (event) {
 }
 
   function getNivelImc (imc){
-    const nivel = ["Abaixo do peso", "Peso Normal", " Sobrepeso", "Obesidade Grai 1", "Obesidade Grai 2", "Obesidade Grai 3"];
+    const nivel = ["Abaixo do peso", "Peso Normal", " Sobrepeso", "Obesidade Grau 1", "Obesidade Grau 2", "Obesidade Grau 3"];
   
     if(imc >= 39.9) {
       return nivel [5]
