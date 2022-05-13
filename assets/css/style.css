@@ -50,8 +50,8 @@ p{
 }
 
 form p{
-  
-        word-spacing: 58px;
+        
+        word-spacing: 13vh;
         margin-bottom: 1vh;
   
 }
@@ -125,7 +125,14 @@ footer, p.copy {
     .imc{
         padding-right: 5vh;
        
-    } 
+    }
+    
+    form p{
+            
+            word-spacing: 8vh;
+            margin-bottom: 0vh;
+      
+    }
     .container{
         width: 40vh;
         margin: 30px auto;
@@ -155,6 +162,19 @@ footer, p.copy {
         align-items: center;
         text-align: center;
         width: 35.5vh;    
+    }
+    
+    input, button{
+        margin-right: 1vh;
+        width: 10vh;
+        height: 4vh;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(18, 92, 110);
+        border: 0 none;
+        outline: 0;
+        font-family: Quicksand;
+        font-size: 1.5vh !important;
     }
     
 }
